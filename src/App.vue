@@ -3,13 +3,12 @@ import Content from "./components/Topic-on-the-left-and-the-content-on-right/Con
 import Accordian from "./components/Accordian/Accordian.vue";
 import Courses from "./components/slidable-title-bar/Courses.vue";
 import DataProvider from "./components/slidable-title-bar/DataProvider.vue";
+import RichTextEditor from "./components/VueQuill/RichTextEditor.vue";
 </script>
 
 <template>
   <div>
-    <!-- <Content /> -->
-    <!-- <Accordian /> -->
-    <!-- <Courses /> -->
-     <DataProvider />
+    <h1>Vue 3 Quill Editor</h1>
+    <RichTextEditor />
   </div>
 </template>
