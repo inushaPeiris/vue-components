@@ -4,6 +4,7 @@
       v-model:content="content"
       ref="myQuillEditor"
       :options="editorOption"
+      toolbar="full"
       @update:content="onEditorChange"
     />
     
@@ -41,10 +42,18 @@ const editorOption = {
   theme: 'snow',
   placeholder: 'Type here...',
   modules: {
-    toolbar: [
-      ['bold', 'italic', 'underline'],
-      ['link', 'image']
-    ]
+    // Add more modules as needed
+
+    // Example modules: custom toolbar, image upload, etc.
+    // toolbar: [
+    //   [{ 'header': '1'}, {'header': '2'}, { 'font': [] }],
+    //   [{size: []}],
+    //   ['bold', 'italic', 'underline', 'strike', 'blockquote'],
+    //   [{'list': 'ordered'}, {'list': 'bullet'}, 
+    //    {'indent': '-1'}, {'indent': '+1'}],
+    //   ['link', 'image', 'video'],
+    //   ['clean']
+    // ]
   }
 };
 
