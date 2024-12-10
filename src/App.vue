@@ -5,12 +5,12 @@ import Courses from "./components/slidable-title-bar/Courses.vue";
 import DataProvider from "./components/slidable-title-bar/DataProvider.vue";
 import RichTextEditor from "./components/VueQuill-rich-text-editor/RichTextEditor.vue";
 import DisplayHtmlContent from "./components/VueQuill-rich-text-editor/DisplayHtmlContent.vue";
+import Wrapper from "./components/notwind-notification/Notification.vue";
+import Notification from "./components/notwind-notification/Notification.vue";
 </script>
 
 <template>
   <div>
-    <h1>Vue 3 Quill Editor</h1>
-    <RichTextEditor />
-    <DisplayHtmlContent />
+    <Notification />
   </div>
 </template>
